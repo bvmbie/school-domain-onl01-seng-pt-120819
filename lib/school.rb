@@ -1,1 +1,15 @@
-# code here!
+class School
+  
+  def initialize
+    @roster = {}
+  end
+  
+  def roster
+    @roster
+  end
+  
+  def add_student (name, grade)
+    @roster << {name: grade}
+  end 
+  
+end
